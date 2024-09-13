@@ -1,0 +1,268 @@
+* {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color:rgb(7, 18, 90);
+  font-size: 30px; 
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+
+.section a {
+  font-size: 35px;
+  background-color: rgb(207, 204, 204);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin-right: 50px;
+}
+
+
+.major {
+  color: white;
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.home {
+  color: white;
+  background-color:rgb(162, 21, 36);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 24px; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section a {
+    font-size: 28px; 
+    padding: 20px; 
+    position: absolute;
+    top: 10px;
+  }
+
+  .navbar li {
+    margin-right: 30px; 
+    padding: 0px; 
+   
+  }
+
+  .major {
+    padding: 20px;
+  }
+
+  .home {
+    font-size: 24px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    font-size: 15px; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 15px; 
+    padding: 10px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 8px; 
+  }
+
+  .major {
+    padding: 15px; 
+    font-size: 15px;
+  }
+
+  .home {
+    font-size: 15px; 
+    margin: -20px;
+    padding: 15px;
+  }
+  }
+
+  .prog1{
+    width: 300px;
+    height: 300px;
+    background-color:rgb(207, 204, 204);
+    border-radius: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    font-family: 'Lilita One';
+    font-size: 35px;
+    text-align: center;
+    position: fixed;
+    left: 140px;
+    top: 200px;
+}
+
+.basic{
+  width: 300px;
+    height: 300px;
+    background-color:rgb(162, 21, 36);
+    border-radius: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0); 
+    font-family: 'Lilita One';
+    font-size: 30px;
+    text-align: center;
+    position: fixed;
+    left: 550px;
+    top: 200px;
+}
+
+.apps{
+  width: 300px;
+  height: 300px;
+  background-color:rgb(207, 204, 204);
+  border-radius: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0); 
+  font-family: 'Lilita One';
+  font-size: 35px;
+  text-align: center;
+  position: fixed;
+  left: 950px;
+  top: 200px;
+
+}
+.first{
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 520px;
+  left: 210px;
+  font-size: 35px;
+}
+.second{
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 520px;
+  left: 600px;
+}
+
+.third{
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 520px;
+  left: 1030px;
+}
+
+@media (max-width: 768px) {
+.prog1{
+width: 150px;
+  height: 150px;
+  background-color:rgb(207, 204, 204);
+  border-radius: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0); 
+  font-family: 'Lilita One';
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  left: 130px;
+  top: 100px;
+
+}
+.first{
+
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 250px;
+  left: 170px;
+  font-size: 15px;
+
+}
+ 
+.basic{
+  width: 150px;
+  height: 150px;
+  background-color:rgb(162, 21, 36);
+  border-radius: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0); 
+  font-family: 'Lilita One';
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  left: 130px;
+  top: 330px;
+
+}
+
+.second{
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 480px;
+  left: 170px;
+  font-size: 15px;
+} 
+
+.apps{
+  width: 150px;
+  height: 150px;
+  background-color:rgb(207, 204, 204);
+  border-radius: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(0, 0, 0); 
+  font-family: 'Lilita One';
+  font-size: 15px;
+  text-align: center;
+  position: fixed;
+  left: 130px;
+  top: 550px;
+
+}
+
+.third{
+  position: fixed;
+  font-family: 'Lilita One';
+  top: 700px;
+  left: 170px;
+  font-size: 15px;
+}
+
+}

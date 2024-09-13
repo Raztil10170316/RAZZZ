@@ -1,0 +1,223 @@
+* {
+  text-decoration: none;
+}
+
+
+.navbar {
+  background-color:rgb(7, 18, 90);
+  font-size: 30px; /* Base font size */
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+
+.section a {
+  font-size: 35px;
+  background-color:rgb(207, 204, 204);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.navbar li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+  margin-right: 50px;
+}
+
+
+.major {
+  color: white;
+  background-color:rgb(162, 21, 36);
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+.home {
+  color: white;
+  padding: 30px;
+  font-family: 'Lilita One';
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 24px; 
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section a {
+    font-size: 28px; 
+    padding: 20px;
+    position: absolute;
+    top: 10px;
+  }
+
+  .navbar li {
+    margin-right: 30px; 
+    padding: 0px; 
+   
+  }
+
+  .major {
+    padding: 20px;
+  }
+
+  .home {
+    font-size: 24px; 
+  }
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+    font-size: 15px; 
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .section a {
+    font-size: 15px; 
+    padding: 10px; 
+  }
+
+  .navbar li {
+    margin-right: 15px;
+    padding: 8px; 
+  }
+
+  .major {
+    padding: 15px; 
+    font-size: 15px;
+  }
+
+  .home {
+    font-size: 15px; 
+    margin: -20px;
+    padding: 15px;
+  }
+}
+
+img{
+  width: 300px;
+  height: 400x;
+  position: fixed;
+  left: 850px;
+  top: 250px;
+}
+
+.ellipse {
+  width:500px; 
+  height: 300px; 
+  background-color:rgb(162, 21, 36); 
+  border-radius: 50%; 
+  display: flex;
+  align-items: center;
+text-align: left;
+  font-size: 80px; 
+  color: rgb(0, 0, 0);
+  font-family: 'Lilita One';
+  position: fixed;
+  left: 250px;
+  top: 220px;
+}
+
+
+
+.fa-envelope{
+  position: fixed;
+  display: flex;
+  top: 600px;
+  left:260px ;
+  font-size: 40px;
+}
+.email{
+  position: fixed;
+  display: flex;
+  top: 570px;
+  left:320px ;
+  font-size: 40px;
+}
+
+.fa-phone{
+  position: fixed;
+  display: flex;
+  top: 670px;
+  left:260px ;
+  font-size: 40px;
+
+}
+.contact{
+  position: fixed;
+  display: flex;
+  top: 645px;
+  left:320px ;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .ellipse {
+    width: 340px;
+    height: 170px;
+    font-size: 50px;
+    top: 370px;
+    left: 10vw;
+    border-radius: 50%;
+    display: flex;
+  }
+
+  img {
+    width: 150px;
+    height: 250px;
+    left: 150px;
+    top: 100px;
+  }
+
+  .fa-envelope{
+    font-size: 25px;
+    left: 90px;
+    top: 570px;
+  }
+
+  .fa-phone{
+    font-size: 25px;
+    left: 90px;
+    top:620px ;
+
+  }
+  .email {
+    font-size: 4vw;
+    top: 600px;
+    font-family: 'Lilita One';
+    top: 562px;
+    left: 130px;
+  }
+  .contact{
+    font-size: 4vw;
+    top: 700px;
+    font-family: 'Lilita One';
+    top: 614px;
+    left: 130px;
+  }
+}
+
+
+
